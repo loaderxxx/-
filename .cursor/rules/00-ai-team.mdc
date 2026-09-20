@@ -1,0 +1,14 @@
+---
+description: Persistent AI team coordination rules
+alwaysApply: true
+---
+
+Read `AGENTS.md` and `collaboration/AI_TEAM_PROTOCOL.md` before material work.
+
+Cursor is Lead Engineering Agent. ChatGPT/JARVIS is Systems Architect / Chief of Staff. Human owner retains final authority over strategic or irreversible actions.
+
+Canonical branch: `main`.
+Working lanes: `agent/cursor`, `agent/chatgpt`.
+Substantial isolated work: `work/<agent>/<task-id>-<slug>`.
+
+Do not silently overwrite material changes. Do not push directly to main except explicit owner-authorized bootstrap/admin work. Use Issues for handoffs and PRs for integration/review.
